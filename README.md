@@ -1,5 +1,5 @@
+![image](https://github.com/user-attachments/assets/47091750-ef0f-4014-b471-57c0b18b975c)
 # Flutter Installation Guide
-
 This guide provides a step-by-step process to install Flutter on your system. Follow the instructions based on your operating system.
 
 ## Table of Contents
@@ -21,14 +21,14 @@ This guide provides a step-by-step process to install Flutter on your system. Fo
 Before you install Flutter, ensure your system meets the following requirements:
 
 - **Operating System**: Windows 10 or later, macOS 10.14 or later, or a 64-bit Linux distribution.
-- **Disk Space**: 2.8 GB (does not include disk space for IDE/tools).
-- **Tools**: Git, bash (for macOS/Linux), PowerShell (for Windows).
+- **Disk Space**: `2.8 GB` (does not include disk space for IDE/tools).
+- **Tools**: `Git, bash (for macOS/Linux), PowerShell (for Windows).
 
 ---
 
 ## Install Flutter
 
-### Windows
+### **`Windows`**
 
 1. Download the Flutter SDK from the [Flutter Windows Installation](https://docs.flutter.dev/get-started/install/windows) page.
 
@@ -48,7 +48,7 @@ Before you install Flutter, ensure your system meets the following requirements:
 ```bash
 flutter doctor
 ```
-### macOS
+### **`macOS`**
 1. Download the Flutter SDK from the Flutter macOS Installation page.
 ```bash
 https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.24.2-stable.zip
@@ -64,8 +64,8 @@ export PATH="$PATH:`pwd`/flutter/bin"
 flutter doctor
 ```
 ## Install Java JDK
-### Windows
-1. Visit the Oracle JDK download page (or the latest version).
+### **`Windows`**
+1. Visit the [Oracle JDK download page](https://www.oracle.com/java/technologies/downloads/#java11-windows) (or the latest version).
 
 2. Accept the license agreement and download the Windows installer.
 
@@ -78,8 +78,8 @@ flutter doctor
    - Variable name: JAVA_HOME
    - Variable value: `C:\Program Files\Java\jdk-<version>` (replace <version> with the actual version number).
 5. Update the Path variable to include `%JAVA_HOME%\bin`.
-### macOS
-1. Visit the Oracle JDK download page (or the latest version).
+### **`macOS`**
+1. Visit the [Oracle JDK download page](https://www.oracle.com/java/technologies/downloads/#java11-mac) (or the latest version).
 
 2. Accept the license agreement and download the macOS installer.
 
@@ -92,7 +92,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 ```
 5. Run source ~/.bash_profile or source ~/.zshrc to apply the changes.
 ## Set up IDE
-### Visual Studio Code
+### **`Visual Studio Code`**
 1. Install Visual Studio Code.
 2. Open VS Code, go to Extensions, and install the Flutter and Dart extensions.
 3. Open a terminal in VS Code and run
@@ -100,7 +100,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 ```bash
 flutter doctor
 ```
-### Android Studio
+### **`Android Studio`**
 1. Download Android Studio.
 2. Open Android Studio and install the Flutter and Dart plugins:
 - Go to File > Settings > Plugins > Marketplace.
@@ -114,7 +114,7 @@ flutter doctor
 It will show if there are any missing dependencies or tools required to complete the setup.
 
 Example output:
-```bash
+```
 Doctor summary (to see all details, run flutter doctor -v):
 [✓] Flutter (Channel stable, 3.24.2, on macOS 12.6)
 [✓] Android toolchain - develop for Android devices
