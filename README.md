@@ -40,7 +40,7 @@ Before you install Flutter, ensure your system meets the following requirements:
    - Visit the [Flutter SDK download page](https://docs.flutter.dev/get-started/install/windows) and download the latest stable release for Windows.
    - Direct download link (latest stable version):
      ```bash
-     https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.27.3-stable.zip
+     https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.32.4-stable.zip
      ```
 
 2. **Extract the Flutter SDK**:
